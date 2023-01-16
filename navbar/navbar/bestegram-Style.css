@@ -1,0 +1,239 @@
+﻿
+body {
+    margin: 0;
+    background-color: #121212;
+    font-family: 'SoDo Sans',Gotham,Tahoma,'Times New Roman','Neue Machina';
+    text-decoration: none;
+}
+
+
+
+
+/*/ NAVBARRRRR */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+
+
+
+nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    background: #000000;
+    width: 100px;
+    overflow: hidden;
+    transition: width 0.2s linear;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.5);
+}
+
+.logo {
+    display: flex;
+    text-align: center;
+    margin: 0px 0 0 0px;
+    transition: all 0.5s ease;
+}
+
+    .logo img {
+        width: 45px;
+        height: 45px;
+        margin: 5px 0 5px 20px;
+        border-radius: 50%;
+    }
+
+    .logo span {
+        font-weight: bold;
+        padding-left: 15px;
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+li a {
+    display: table;
+    position: relative;
+    color: white;
+    font-size: 14px;
+    width: 250px;
+    padding: 10px;
+}
+
+.fa-solid {
+    position: relative;
+    width: 80px;
+    height: 50px;
+    top: 15px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item {
+    position: relative;
+    top: 12px;
+    margin-left: 25px;
+}
+
+a:hover {
+    background-color: #090909;
+}
+
+nav:hover {
+    width: 250px;
+    transition: all 0.5s ease;
+}
+
+.logout {
+    position: absolute;
+    bottom: 0px;
+}
+
+
+
+/* navvvBARRRRR BİTİŞŞŞ*/
+
+
+
+
+
+
+.header {
+    width: 100%;
+    user-select: none;
+    display: flex;
+}
+
+.bilgiler {
+    width: 800px;
+    margin: auto;
+    border-bottom: 1px solid #F7F7F7;
+}
+
+
+.profil {
+    padding: 15px;
+    padding-top: 40px;
+}
+
+.foto {
+    width: 100%;
+    height: 100px;
+}
+
+.pp {
+    background-color: #F7F7F7;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#profil-foto {
+    border: 2px solid #F7F7F7;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.name {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+}
+
+    .name > * {
+        padding: 4px;
+    }
+
+.name-id {
+    font-size: 12px;
+    color: #F7F7F7;
+}
+
+.name-info {
+    font-family: Gotham;
+    font-size: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+.container-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+    .container-content .s1 > * {
+        background-color: white;
+        width: 263px;
+        height: 263px;
+        align-items: self-start;
+        box-sizing: border-box;
+        display: inline-flex;
+        flex-direction: row;
+        position: relative;
+    }
+
+
+.foto-post {
+    width: 264px;
+    height: 264px;
+    object-fit: cover;
+}
+
+
+.footer {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 50px;
+    padding: 50px;
+    color: white;
+}
+
+.footer-bilgi {
+    width: 100%;
+    font-size: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+    .footer-bilgi > * {
+        margin: auto;
+        color: white;
+    }
+
+.footer-by {
+    user-select: none;
+    margin-top: 50px;
+}
+
+
